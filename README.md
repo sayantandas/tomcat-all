@@ -131,7 +131,7 @@ configured with the bellow default settings if no other settings is provided.
 
 # Author
 
-Author:: Roberto Moutinho (robertomoutinho@gmail.com)
+Author:: Sayantan Das (sayantan13@gmail.com)
 =======
 # tomcat-all
 chef installation of tomcat and java
