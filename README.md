@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # tomcat-all cookbook
 
 This cookbook will install tomcat using apache's binaries and extract it to the desired path.
@@ -129,3 +130,7 @@ configured with the bellow default settings if no other settings is provided.
 # Author
 
 Author:: Roberto Moutinho (robertomoutinho@gmail.com)
+=======
+# tomcat-all
+chef installation of tomcat and java
+>>>>>>> 0fdd2ab70fda05b168616f38f62bfa9194c2c2f8
