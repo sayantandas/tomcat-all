@@ -2,10 +2,10 @@
 # Cookbook Name:: tomcat-all
 # Recipe:: default
 #
-# Copyright (C) 2014 Roberto Moutinho
-# Copyright (C) 2015 Sunggun Yu
+# Copyleft (L) 2015 Sayantan Das
+# 
 #
-# All rights reserved - Do Not Redistribute
+# No rights reserved - Please Redistribute
 #
 
 
@@ -102,7 +102,7 @@ end
 execute "create_environment" do 
    cwd "/home/myapp"                                                           
     user "myapp"                                                                
-    #action :run   
+    action :run   
     environment ({'HOME' => '/home/myapp', 'USER' => 'myapp'})  
     command "source /home/myapp/.bash_profile"
 end

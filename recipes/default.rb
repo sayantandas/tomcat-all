@@ -102,9 +102,9 @@ end
 execute "create_environment" do 
    cwd "/home/myapp"                                                           
     user "myapp"                                                                
-    #action :run   
+    action :run   
     environment ({'HOME' => '/home/myapp', 'USER' => 'myapp'})  
-    command "source /home/myapp/.bash_profile"
+    command "source ~/.bash_profile"
 end
 
 #execute "create_environment_root" do
